@@ -279,3 +279,29 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => large ? '32px' : '16px'};
   }
 `
+
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+`
+export const Input = styled.input`
+  margin: 4px 0;
+  padding: 4px 8px;
+  font-size: 18px;
+`
+
+export const TextArea = styled.textarea`
+  margin: 4px 0;
+  padding: 4px 8px;
+  font-size: 18px;
+`
+
+export const FormButton = styled.button`
+  width: 25%;  
+  padding: 8px 16px;
+  align-self: center;
+  margin: 4px 0;
+`

@@ -11,7 +11,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        this is a description about me
+        I'm Arber Zeka student of Computer Science and Engineering and an aspiring software developer.
+        I'm from Kosovo, a small country in Southeast of Europe, where I am currently studying.
       </SectionText>
     </Section>
   );

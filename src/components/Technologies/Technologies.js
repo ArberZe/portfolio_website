@@ -6,7 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle style={{marginTop: "20px"}}>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of Technologies in web development
       from Design to Backend
@@ -17,8 +17,20 @@ const Technologies = () =>  (
       <ListContainer>
         <ListTitle>Front-End</ListTitle>
         <ListParagraph>
-          Experience with<br />
+        Experience with:<br />
+          HTML
+        </ListParagraph>
+        <ListParagraph>
+          CSS
+        </ListParagraph>
+        <ListParagraph>
+          Javascript
+        </ListParagraph>
+        <ListParagraph>
           React.js
+        </ListParagraph>
+        <ListParagraph>
+          Bootstrap
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -28,7 +40,11 @@ const Technologies = () =>  (
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
           Experience with<br />
-          React.js
+          Firebase<br />
+          Supabase<br />
+          .NET 5<br />
+          PHP<br />
+          JAVA
         </ListParagraph>
       </ListContainer>
     </ListItem>
@@ -38,7 +54,7 @@ const Technologies = () =>  (
         <ListTitle>UI/UX</ListTitle>
         <ListParagraph>
           Experience with<br />
-          React.js
+          FIGMA
         </ListParagraph>
       </ListContainer>
     </ListItem>

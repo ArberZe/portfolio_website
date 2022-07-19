@@ -30,16 +30,21 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#contact">
+          <NavLink>Contact</NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/ArberZe">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
+      <SocialIcons href="https://www.linkedin.com/in/arber-zeka-742452220/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://twitter.com">
-        <AiFillTwitterCircle size="3rem" />
+      <SocialIcons href="https://www.facebook.com/profile.php?id=100017616348255">
+        <AiFillFacebook size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

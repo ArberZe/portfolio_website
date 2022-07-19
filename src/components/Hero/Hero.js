@@ -12,9 +12,11 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        This is a descriptive paragraph of my self...!
+        A student of computer science , an adorer of coding and technology in general, a constant learner,
+        looking forward to develop professional skills and learning new things. No work experience in the
+        field of ICT but I possess general knowledge in coding.
       </SectionText>
-      <Button onClick={() => window.location = "https://google.com"}>Learn More</Button>
+      <Button onClick={() => window.location = "#about"}>Learn More</Button>
     </LeftSection>
   </Section>
 );
